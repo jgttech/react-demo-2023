@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "arcanis.vscode-zipfs",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "formulahendry.auto-close-tag",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "eg2.vscode-npm-script",
+    "christian-kohler.path-intellisense",
+    "shardulm94.trailing-spaces",
+    "formulahendry.auto-rename-tag",
+    "yzhang.markdown-all-in-one",
+    "Gruntfuggly.todo-tree",
+    "GitHub.vscode-pull-request-github",
+    "rangav.vscode-thunder-client",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
