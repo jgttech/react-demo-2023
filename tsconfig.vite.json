@@ -4,7 +4,18 @@
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "components": ["./src/components/index.ts"],
+      "utils/*": ["./src/utils/*"],
+      "utils": ["./src/utils/index.ts"],
+      "hooks/*": ["./src/hooks/*"],
+      "hooks": ["./src/hooks/index.ts"],
+      "models/*": ["./src/models/*"],
+      "models": ["./src/models/index.ts"],
+      "views/*": ["./src/views/*"]
+    },
   },
   "include": ["vite.config.ts"]
 }

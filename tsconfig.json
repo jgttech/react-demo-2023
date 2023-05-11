@@ -26,6 +26,8 @@
       "utils": ["./src/utils/index.ts"],
       "hooks/*": ["./src/hooks/*"],
       "hooks": ["./src/hooks/index.ts"],
+      "models/*": ["./src/models/*"],
+      "models": ["./src/models/index.ts"],
       "views/*": ["./src/views/*"]
     },
   },

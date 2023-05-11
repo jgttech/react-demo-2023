@@ -22,6 +22,7 @@ export default defineConfig({
       utils: 'src/utils',
       views: 'src/views',
       hooks: 'src/hooks',
+      models: 'src/models',
       components: 'src/components',
     }),
   },

@@ -1,20 +1,9 @@
-import { $ } from 'utils/classes';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { SignIn } from 'views/SignIn';
 
-const styles = {
-  span: $`
-    text-3xl
-    font-bold
-    underline
-  `
-};
-
-export const App: FC = () => {
-  return (
-    <div>
-      <span className={styles.span}>Hello world!</span>
-      <div>
-        <button type='button'>Click me!</button>
-      </div>
-    </div>
-  );
-};
+export const App: FC = () => (
+  <Routes>
+    <Route path='/' element={<SignIn />} />
+    <Route path='*' element={<Navigate to='/' />} />
+  </Routes>
+);

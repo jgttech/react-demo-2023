@@ -8,6 +8,7 @@ This repo is an initial setup of a repo that uses that latest and greatest of th
   - [RollupJS](https://rollupjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [Yarn 3 (PnP)](https://yarnpkg.com/features/pnp)
 
 All these solutions offer beenfits to fast reliable and easy application building using new and modern design practices, technologies, and paradigms for new and seasoned developers.

@@ -17,6 +17,7 @@
     "GitHub.vscode-pull-request-github",
     "rangav.vscode-thunder-client",
     "esbenp.prettier-vscode",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss"
   ]
 }
