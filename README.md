@@ -50,3 +50,10 @@ This builds the deployment bundle(s) and allows you to preview the build.
 
 1. Build the production bundle: `yarn build`
 2. Preview the production bundle: `yarn preview`
+
+## Notice: Just So You Know
+
+This repo is lacking some things that were not added because of the constraint of time for the demo.
+
+- Jest unit testing
+- Cypress integration testing.
