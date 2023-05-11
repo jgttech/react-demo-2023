@@ -13,6 +13,16 @@ This repo is an initial setup of a repo that uses that latest and greatest of th
 
 All these solutions offer beenfits to fast reliable and easy application building using new and modern design practices, technologies, and paradigms for new and seasoned developers.
 
+<br />
+
+**[Additional Considerations]**
+
+Though it was not added to this basic demo to keep things less complex because this is not used as a demo for accessibility, I have left out a technology that I REALLY want to mention.
+
+- [Radix UI](https://www.radix-ui.com/)
+  - RedixUI are primative React components for building high quality and accessibility focused components for a React application. This library contains baked-in screen reader support as well as basic general keyboard controls.
+  - I recommend checking out their explanation about accessibility [here](https://www.radix-ui.com/docs/primitives/overview/accessibility)
+
 ---
 
 ## System Requirements
