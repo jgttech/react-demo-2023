@@ -1,4 +1,5 @@
 type InferProps<C extends (...args: any) => any> = Parameters<C>[0];
+type BaseElement<T, P = {}> = Omit<T, 'ref' | 'children'> & BaseComponent & P;
 type BaseComponent = {
   children?: Children;
   as?: keyof JSX.IntrinsicElements;
@@ -31,15 +32,15 @@ declare type Ref = {
  * tag element type here. All these HTML element tag types should be
  */
 declare namespace Html {
-  type Button = Rauster.Element<React.ButtonHTMLAttributes<HTMLButtonElement>>;
-  type Div = Rauster.Element<React.HTMLAttributes<HTMLDivElement>>;
-  type UnorderedList = Rauster.Element<React.HTMLAttributes<HTMLDivElement>>;
-  type OrderedList = Rauster.Element<React.HTMLAttributes<HTMLDivElement>>;
-  type ListItem = Rauster.Element<React.LiHTMLAttributes<HTMLLIElement>>;
-  type Anchor = Rauster.Element<React.AnchorHTMLAttributes<HTMLAnchorElement>>;
-  type Paragraph = Rauster.Element<React.HTMLAttributes<HTMLDivElement>>;
-  type Input = Rauster.Element<React.InputHTMLAttributes<HTMLInputElement>>;
-  type Checkbox = Rauster.Element<React.InputHTMLAttributes<HTMLInputElement>>;
-  type Span = Rauster.Element<React.HTMLAttributes<HTMLSpanElement>>;
-  type Label = Rauster.Element<React.HTMLAttributes<HTMLLabelElement>>;
+  type Button = BaseElement<React.ButtonHTMLAttributes<HTMLButtonElement>>;
+  type Div = BaseElement<React.HTMLAttributes<HTMLDivElement>>;
+  type UnorderedList = BaseElement<React.HTMLAttributes<HTMLDivElement>>;
+  type OrderedList = BaseElement<React.HTMLAttributes<HTMLDivElement>>;
+  type ListItem = BaseElement<React.LiHTMLAttributes<HTMLLIElement>>;
+  type Anchor = BaseElement<React.AnchorHTMLAttributes<HTMLAnchorElement>>;
+  type Paragraph = BaseElement<React.HTMLAttributes<HTMLDivElement>>;
+  type Input = BaseElement<React.InputHTMLAttributes<HTMLInputElement>>;
+  type Checkbox = BaseElement<React.InputHTMLAttributes<HTMLInputElement>>;
+  type Span = BaseElement<React.HTMLAttributes<HTMLSpanElement>>;
+  type Label = BaseElement<React.HTMLAttributes<HTMLLabelElement>>;
 }
