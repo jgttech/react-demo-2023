@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "clean": "yarn dlx rimraf node_modules"
+    "clean": "yarn dlx rimraf node_modules dist"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.29.5",
