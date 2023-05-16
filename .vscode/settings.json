@@ -1,0 +1,49 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "gitlens.telemetry.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.tabs.enabled": true,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.autoClosingQuotes": "always",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "\\$`([^`]*)", // $`...`
+    "classes`([^`]*)", // classes`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw='([^']*)", // <div tw='...' />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw={'([^'}]*)", // <div tw={'...'} />
+    "tw={`([^`}]*)", // <div tw={`...`} />
+    "className=\"([^\"]*)", // <div className="..." />
+    "className='([^']*)", // <div className='...' />
+    "className={\"([^\"}]*)", // <div className={"..."} />
+    "className={'([^'}]*)", // <div className={'...'} />
+    "className={`([^`}]*)" // <div className={`...`} />
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  }
+}
